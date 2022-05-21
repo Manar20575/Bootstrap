@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h1{
+    /* font-size: 3.5rem; */
+    font-weight: 400;
+    line-height: 1.2;
+}
+a{
+    text-decoration: none;
+}
+.navbar-logo {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+.nav{
+    justify-content: end;
+}
+header{
+    height: 100vh;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+    background-image:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("//images/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.home-contant{
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.p-home{
+    font-size: 1.12rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+hr{
+    background-color: #f4623a;
+    height: 0.2rem;
+    margin: 1.5rem auto;
+    width: 3.25rem;
+    opacity: 1;
+}
+.stbtn{
+    color: #fff;
+    background-color: #f4623a;
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}
+/* about */
+.about-section{
+    background-color: #f4623a;
+}
+.services-section, .about-section, .form{
+    padding: 8rem 0;
+}
+.about-section p {
+    color:rgba(255, 255, 255, 0.75);
+    font-family: 'Merriweather', serif;
+}
+/* Services */
+.contant i{
+    color: #f4623a;
+}
+.contant{
+    font-family: 'Merriweather', serif;
+}
+/* Porto */
+.pic-caption{
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    background-color: #f4623a;
+    opacity: 0;
+    visibility: hidden;
+    transition: background-color, 0.4s;
+    -webkit-transition: background-color, 0.4s;
+    -moz-transition: background-color, 0.4s;
+    -ms-transition: background-color, 0.4s;
+    -o-transition: background-color, 0.4s;
+}
+.pic-port:hover .pic-caption{
+    opacity: 0.85;
+    visibility: visible;
+}
+/* <== how make it in center i try *-* but fail ==> */
+/* .contant-port{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+} */
+/* Form */
